@@ -1,0 +1,71 @@
+.gradientColor {
+  -fx-background-color: linear-gradient(to bottom right, #0093e9, #80d0c7);
+}
+
+.login {
+  -fx-background-color: #326ff4;
+  -fx-text-fill: white;
+}
+
+.newAccount {
+  -fx-background-color: #326ff4;
+  -fx-text-fill: white;
+}
+
+.back {
+    -fx-background-color: transparent;
+}
+
+.back SVGPath {
+    -fx-fill: #3C3C3C;
+}
+
+.login:hover {
+}
+
+.login:active {
+}
+
+.table-view{
+-fx-border-radius: 7px 7px 7px 7px;
+}
+
+.table-view:focused{
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header-background{
+    -fx-background-color: linear-gradient(to bottom, #0093e9, #80d0c7);
+    -fx-background-radius: 7px 7px 0px 0px;
+}
+
+.table-view .column-header-background .label{
+    -fx-text-fill: white;
+    -fx-alignment: center-left;
+}
+
+
+.table-view .column-header {
+    -fx-border-style: hidden solid hidden hidden;
+        -fx-border-color: white;
+        -fx-cell-size: 18;
+    -fx-background-color: transparent;
+}
+
+.table-view .table-cell{
+    -fx-text-fill: white;
+}
+
+.table-row-cell{
+    -fx-background-color: -fx-table-cell-border-color, #616161;
+}
+
+.table-row-cell:odd{
+    -fx-background-color: -fx-table-cell-border-color, #424242;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #005797;
+    -fx-background-insets: 0;
+    -fx-background-radius: 1;
+}
