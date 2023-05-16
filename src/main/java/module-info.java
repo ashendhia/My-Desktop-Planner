@@ -1,6 +1,7 @@
 module tp.javafx {
     requires javafx.controls;
     requires javafx.fxml;
+    requires org.controlsfx.controls;
 
 
     opens tp.javafx to javafx.fxml;

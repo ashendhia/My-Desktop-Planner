@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="780.0" prefWidth="580.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tp.javafx.controllers.newTaskController">
+   <children>
+      <Label layoutX="66.0" layoutY="41.0" text="New Task" textFill="#3c3c3c">
+         <font>
+            <Font name="Amber EN Medium" size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="316.0" layoutY="225.0" text="Importance *" textFill="#3c3c3c">
+         <font>
+            <Font name="Amber EN Medium" size="18.0" />
+         </font>
+      </Label>
+      <Slider layoutX="316.0" layoutY="267.0" prefHeight="20.0" prefWidth="218.0" />
+      <HBox alignment="CENTER" layoutX="48.0" layoutY="373.0" prefHeight="32.0" prefWidth="100.0" spacing="15.0">
+         <children>
+            <Label prefHeight="32.0" prefWidth="61.0" text="Repeat" textFill="#3c3c3c">
+               <font>
+                  <Font name="Amber EN Medium" size="18.0" />
+               </font>
+            </Label>
+            <CheckBox mnemonicParsing="false" />
+         </children>
+      </HBox>
+      <VBox layoutX="314.0" layoutY="480.0" prefHeight="67.0" prefWidth="218.0" spacing="12.0">
+         <children>
+            <Label text="Duration *" textFill="#3c3c3c">
+               <font>
+                  <Font name="Amber EN Medium" size="18.0" />
+               </font>
+            </Label>
+            <HBox alignment="CENTER_LEFT" prefHeight="30.0" prefWidth="83.0" spacing="5.0">
+               <children>
+                  <TextField prefHeight="30.0" prefWidth="100.0" promptText="hours">
+                     <font>
+                        <Font name="Amber EN" size="14.0" />
+                     </font>
+                  </TextField>
+                  <Label text=":" textFill="#3c3c3c">
+                     <font>
+                        <Font name="Amber EN Medium" size="18.0" />
+                     </font>
+                  </Label>
+                  <TextField prefHeight="30.0" prefWidth="100.0" promptText="minutes">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </TextField>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <VBox layoutX="48.0" layoutY="480.0" prefHeight="67.0" prefWidth="218.0" spacing="12.0">
+         <children>
+            <Label text="Time" textFill="#3c3c3c">
+               <font>
+                  <Font name="Amber EN Medium" size="18.0" />
+               </font>
+            </Label>
+            <ChoiceBox prefHeight="30.0" prefWidth="217.0" />
+         </children>
+      </VBox>
+      <Button layoutX="412.0" layoutY="693.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="120.0" styleClass="login" stylesheets="@css/globals.css" text="Save">
+         <font>
+            <Font name="Amber EN Medium" size="14.0" />
+         </font>
+      </Button>
+      <VBox layoutX="48.0" layoutY="225.0" prefHeight="67.0" prefWidth="218.0" spacing="12.0">
+         <children>
+            <Label text="Category" textFill="#3c3c3c">
+               <font>
+                  <Font name="Amber EN Medium" size="18.0" />
+               </font>
+            </Label>
+            <ChoiceBox prefHeight="30.0" prefWidth="217.0" />
+         </children>
+      </VBox>
+      <VBox layoutX="316.0" layoutY="355.0" prefHeight="67.0" prefWidth="218.0" spacing="12.0">
+         <children>
+            <Label disable="true" text="Number" textFill="#3c3c3c">
+               <font>
+                  <Font name="Amber EN Medium" size="18.0" />
+               </font>
+            </Label>
+            <ChoiceBox accessibleRole="CHECK_MENU_ITEM" disable="true" prefHeight="30.0" prefWidth="217.0" />
+         </children>
+      </VBox>
+      <VBox layoutX="48.0" layoutY="122.0" prefHeight="67.0" prefWidth="218.0" spacing="12.0">
+         <children>
+            <Label text="Title *" textFill="#3c3c3c">
+               <font>
+                  <Font name="Amber EN Medium" size="18.0" />
+               </font>
+            </Label>
+            <TextField prefHeight="30.0" prefWidth="217.0" promptText="eg: Revisions">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </TextField>
+         </children>
+      </VBox>
+      <VBox layoutX="316.0" layoutY="120.0" prefHeight="67.0" prefWidth="218.0" spacing="12.0">
+         <children>
+            <Label text="Deadline *" textFill="#3c3c3c">
+               <font>
+                  <Font name="Amber EN Medium" size="18.0" />
+               </font>
+            </Label>
+            <DatePicker prefHeight="39.0" prefWidth="218.0" />
+         </children>
+      </VBox>
+      <HBox alignment="CENTER_LEFT" layoutX="201.0" layoutY="616.0" prefHeight="32.0" prefWidth="177.0" spacing="15.0">
+         <children>
+            <Label prefHeight="32.0" prefWidth="163.0" text="Reserve Time Slot" textFill="#3c3c3c">
+               <font>
+                  <Font name="Amber EN Medium" size="18.0" />
+               </font>
+            </Label>
+            <CheckBox mnemonicParsing="false" />
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>
