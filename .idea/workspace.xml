@@ -1,22 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="javaFX:jar2" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12a8038c-e361-4800-80f4-9788fa57940e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/tp/javafx/controllers/homeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tp/javafx/controllers/newTaskController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/tp/javafx/newTask.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/javaFX_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/javaFX_jar2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/commons-beanutils-1.9.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/commons-codec-1.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/commons-collections-3.2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/commons-collections4-4.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/commons-digester-2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/commons-lang3-3.12.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/commons-validator-1.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/controlsfx-11.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/ical4j-4.0.0-beta2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/ikonli-core-12.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/ikonli-fontawesome-pack-12.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/ikonli-javafx-12.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javafx-base-19-linux.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javafx-base-19.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javafx-controls-19-linux.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javafx-controls-19.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javafx-graphics-19-linux.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javafx-graphics-19.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jool-java-8-0.9.14.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/slf4j-api-1.7.36.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/sqlite-jdbc-3.41.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/threeten-extra-1.7.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/view-11.12.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tp/javafx/AppLauncher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tp/javafx/controllers/newCategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tp/javafx/data/DatabaseManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tp/javafx/data/database.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tp/javafx/data/script.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tp/javafx/models/Authentification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tp/javafx/models/Badge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tp/javafx/models/Categorie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tp/javafx/models/Creneau.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tp/javafx/models/Decomposable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tp/javafx/models/Etat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tp/javafx/models/Jour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tp/javafx/models/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tp/javafx/models/Priorite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tp/javafx/models/Projet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tp/javafx/models/Tache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tp/javafx/models/TacheObservable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tp/javafx/models/Tcomposee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tp/javafx/models/Tsimple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tp/javafx/models/Utilisateur.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tp/javafx/models/UtilisateurDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/tp/javafx/actions.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/tp/javafx/assets/Good.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/tp/javafx/assets/VeryGood.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/tp/javafx/assets/add.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/tp/javafx/assets/check.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/tp/javafx/assets/excellent.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/tp/javafx/assets/medal (1).svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/tp/javafx/assets/medal (2).svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/tp/javafx/assets/medal.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/tp/javafx/assets/user.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/tp/javafx/crenau.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/tp/javafx/newCategorie.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/tp/javafx/projet.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tp/javafx/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tp/javafx/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/tp/javafx/assets/back.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tp/javafx/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tp/javafx/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tp/javafx/controllers/homeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tp/javafx/controllers/homeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tp/javafx/controllers/loginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tp/javafx/controllers/loginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tp/javafx/controllers/newTaskController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tp/javafx/controllers/newTaskController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/tp/javafx/assets/back.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/tp/javafx/assets/back.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/tp/javafx/assets/delete.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/tp/javafx/assets/delete.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/tp/javafx/assets/edit.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/tp/javafx/assets/edit.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/tp/javafx/assets/forward.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/tp/javafx/assets/forward.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/tp/javafx/assets/projects.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/tp/javafx/assets/projects.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/tp/javafx/assets/settings.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/tp/javafx/assets/settings.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/tp/javafx/assets/signout.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/tp/javafx/assets/signout.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/tp/javafx/assets/task.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/tp/javafx/assets/task.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/tp/javafx/css/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/tp/javafx/css/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/tp/javafx/database.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/tp/javafx/home.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/tp/javafx/home.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/tp/javafx/login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/tp/javafx/login.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/tp/javafx/newTask.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/tp/javafx/newTask.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,14 +110,28 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="usePluginRegistry" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2Pk82ciWaLLrqLGAOd9cw8AVR5d" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
+    <option name="flattenPackages" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "Downloaded.Files.Path.Enabled": "true",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
@@ -52,13 +139,13 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/dhiaa/Projects/Work/javaFX/lib/medusa-17.1.5.jar",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/dhiaa/Projects/Open Source/JPackageScriptFX",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.39834407",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+    "settings.editor.selected.configurable": "MavenSettings"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -70,7 +157,33 @@
       <recent name="tp.javafx" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.AppLauncher">
+    <configuration name="AppLauncher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tp.javafx.AppLauncher" />
+      <module name="javaFX" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tp.javafx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DatabaseConnector" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tp.javafx.models.DatabaseConnector" />
+      <module name="javaFX" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tp.javafx.models.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tp.javafx.Main" />
       <module name="javaFX" />
@@ -84,6 +197,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="tp.javafx.models.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tp.javafx.models.Main" />
+      <module name="javaFX" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tp.javafx.models.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AppLauncher" />
+        <item itemvalue="Application.DatabaseConnector" />
+        <item itemvalue="Application.tp.javafx.models.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -96,17 +229,28 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/tp/javafx/controllers/homeController.java</url>
-          <line>119</line>
-          <properties class="tp.javafx.controllers.homeController" method="switchToSettings">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="1" />
+          <line>726</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

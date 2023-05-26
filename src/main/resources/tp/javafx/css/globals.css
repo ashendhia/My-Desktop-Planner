@@ -79,23 +79,21 @@
 
 .table-view .column-header-background .label{
     -fx-text-fill: white;
-    -fx-alignment: center-left;
 }
 
 
 .table-view .column-header {
-    -fx-border-style: hidden solid hidden hidden;
         -fx-border-color: white;
         -fx-cell-size: 18;
     -fx-background-color: transparent;
 }
 
 .table-view .table-cell{
-    -fx-text-fill: white;
+    -fx-text-fill: black;
 }
 
 .table-row-cell{
-    -fx-background-color: -fx-table-cell-border-color, #616161;
+    -fx-background-color: transparent
 }
 
 .scroll-pane > .viewport {
@@ -109,14 +107,4 @@
 .project {
     -fx-border-color: #0093e9;
     -fx-border-radius: 10px;
-}
-
-.table-row-cell:odd{
-    -fx-background-color: -fx-table-cell-border-color, #424242;
-}
-
-.table-row-cell:selected {
-    -fx-background-color: #005797;
-    -fx-background-insets: 0;
-    -fx-background-radius: 1;
 }

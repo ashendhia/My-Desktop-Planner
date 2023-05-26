@@ -15,9 +15,11 @@ public class Main extends Application {
         stage.setTitle("My Desktop Planner");
         stage.setScene(scene);
         stage.show();
+        stage.setResizable(false);
     }
 
-    public  static  void  main(String[] args) {
+    public static void main(String[] args) {
+
         launch(args);
     }
 }
